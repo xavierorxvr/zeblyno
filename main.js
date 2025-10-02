@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     
     window.addEventListener('scroll', () => {
         let scrollY = window.scrollY;
-        let maxScroll = 400;
+        let maxScroll = 300 ;
         let opacity = 1 - scrollY / maxScroll;
         opacity = Math.max(0, opacity);
         intro.style.opacity = opacity;
