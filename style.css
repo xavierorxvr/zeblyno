@@ -14,7 +14,7 @@ body::before {
     height: 100%;
     background: url('assets/elements/hexagon-pattern.png') repeat;
     background-size: 231px 200px;
-    opacity: 0.15;
+    opacity: 0.2;
     z-index: -1;
     pointer-events: none;
 }
